@@ -17,8 +17,7 @@ filetype plugin indent on
 " 見た目
 syntax on
 set number
-set cursorline
-" エディタウィンドウの末尾から2行目にステータスラインを常時表示させる
+set cursorline " エディタウィンドウの末尾から2行目にステータスラインを常時表示させる
 set laststatus=2
 " カラースキーム
 colorscheme evening
@@ -34,6 +33,7 @@ set tabstop=2
 set shiftwidth=2
 set noexpandtab
 set softtabstop=0
+set expandtab " タブを半角スペースに
 set encoding=utf-8
 set fileencoding=utf-8
 
